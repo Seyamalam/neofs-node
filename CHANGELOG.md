@@ -8,6 +8,7 @@ Changelog for NeoFS Node
 
 ### Fixed
 - Shard object counters lost the objects of removed containers on restart and went below the real values as GC deleted them (#4335)
+- eACL attached to container creation was accepted without verifying it is signed by the container owner (#4298)
 
 ### Changed
 
